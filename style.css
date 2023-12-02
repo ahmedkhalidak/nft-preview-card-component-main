@@ -78,11 +78,14 @@
     font-family: 'Outfit',sans-serif;
     background-color: var(--Very-dark-blue-main-BG);
     display: flex;
-    height: fit-content;
-    place-content: center;
-    margin: 1rem;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
   }
   .card {
+    margin: 2rem;
     box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.2);
     max-width: 350px;
     background-color: var(--Very-dark-blue-card-BG);
